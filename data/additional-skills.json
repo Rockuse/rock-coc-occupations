@@ -1,0 +1,822 @@
+[
+  {
+    "name": "Internet Use",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/computer.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Internet Use</strong> is not in the supplied CoC7 system skill registry. Base chance: 20% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "20",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": false,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Internet Use",
+      "specialization": "",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Programming",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/computer.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Programming</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": false,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Programming",
+      "specialization": "",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Cartography",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Cartography</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": false,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Cartography",
+      "specialization": "",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Drive Tank",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Drive Tank</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": false,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Drive Tank",
+      "specialization": "",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Radio Operator",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/communications.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Radio Operator</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": false,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Radio Operator",
+      "specialization": "",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Pilot (Drone)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Pilot (Drone)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "1",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Drone",
+      "specialization": "Pilot",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Science (Computer Science)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Computer Science)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "1",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Computer Science",
+      "specialization": "Science",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Science (Genetics)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Genetics)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "1",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Genetics",
+      "specialization": "Science",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Science (Statistics)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Statistics)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "1",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Statistics",
+      "specialization": "Science",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Science (Geography)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Geography)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "1",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Geography",
+      "specialization": "Science",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Audio)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Audio)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Audio",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Preservation)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Preservation)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Preservation",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Conservation)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Conservation)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Conservation",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Broadcasting)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Broadcasting)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Broadcasting",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Drafting)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Drafting)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Drafting",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Design)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Design)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Design",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Coffee)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Coffee)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Coffee",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Game Design)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Game Design)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Game Design",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Cartography)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Cartography)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Cartography",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  },
+  {
+    "name": "Art/Craft (Film)",
+    "type": "skill",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Film)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+        "keeper": ""
+      },
+      "base": "5",
+      "properties": {
+        "push": true,
+        "noxpgain": false,
+        "special": true,
+        "rarity": false,
+        "fighting": false,
+        "firearm": false,
+        "ranged": false,
+        "requiresname": false,
+        "picknameonly": false,
+        "own": false,
+        "keepbasevalue": false
+      },
+      "skillName": "Film",
+      "specialization": "Art/Craft",
+      "adjustments": {
+        "base": 0,
+        "personal": 0,
+        "occupation": 0,
+        "archetype": 0,
+        "experiencePackage": 0,
+        "experience": 0
+      },
+      "flags": {
+        "archetype": false,
+        "developement": false,
+        "experiencePackage": false,
+        "occupation": false
+      }
+    }
+  }
+]

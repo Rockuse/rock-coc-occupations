@@ -1,0 +1,5125 @@
+[
+  {
+    "name": "Hacker",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/computer.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Hacker</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Lower to Upper Lower class</p><p><strong>Contacts:</strong> Other hackers, usually anonymously</p><p><strong>Occupation skills:</strong> Computer Use, Electrical Repair, Electronics, Fast Talk, Internet Use, Library Use, Language (Any), Science (Physics), Programming.</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any); Physics → Science (Physics).</p><p><strong>Original special notes (Keeper review):</strong> -1 APP , +20 Computer Use. Hackers are uncomfortable in social situations, even though they are frequently charismatic and able to manipulate people. They often have a strong fear, distrust, or hatred of the government and law enforcement. Keep in mind that this is the early 90s, when everything was vulnerable, and that the Keeper of this particular campaign has a strong understanding of hackers’ capabilities.</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 0,
+        "max": 30
+      },
+      "itemDocuments": [
+        {
+          "name": "Internet Use",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/computer.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Internet Use</strong> is not in the supplied CoC7 system skill registry. Base chance: 20% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "20",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": false,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Internet Use",
+            "specialization": "",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        },
+        {
+          "name": "Programming",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/computer.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Programming</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "5",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": false,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Programming",
+            "specialization": "",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.electrical-repair",
+        "i.skill.electronics",
+        "i.skill.fast-talk",
+        "i.skill.internet-use",
+        "i.skill.library-use",
+        "i.skill.language-any",
+        "i.skill.science-physics",
+        "i.skill.programming"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-057",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Electrical Repair",
+          "Electronics",
+          "Fast Talk",
+          "Internet Use",
+          "Library Use",
+          "Language (Any)",
+          "Science (Physics)",
+          "Programming"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-hacker",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Programmer",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/computer.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Programmer</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Lower to Middle class (this was before programmers became a huge commodity).</p><p><strong>Contacts:</strong> Other programmers, hackers, customers</p><p><strong>Occupation skills:</strong> Accounting, Computer Use, Electrical Repair, Electronics, Fast Talk, Internet Use, Library Use, Language (Any), Programming, Science (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any); up to 2 areas of specialization. → Science (Any).</p><p><strong>Original special notes (Keeper review):</strong> -1 APP , -1 SIZ , -1 CON . +1d20 + 40 to Programming, +20 to Computer Use. Programmers are uncomfortable in social situations, and usually work for educational institutions or in scientific endeavours. May have access to source for both civilian and military projects, and may be able to build in backdoors.</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 10,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Internet Use",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/computer.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Internet Use</strong> is not in the supplied CoC7 system skill registry. Base chance: 20% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "20",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": false,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Internet Use",
+            "specialization": "",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        },
+        {
+          "name": "Programming",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/computer.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Programming</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "5",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": false,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Programming",
+            "specialization": "",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.accounting",
+        "i.skill.computer-use",
+        "i.skill.electrical-repair",
+        "i.skill.electronics",
+        "i.skill.fast-talk",
+        "i.skill.internet-use",
+        "i.skill.library-use",
+        "i.skill.language-any",
+        "i.skill.programming",
+        "i.skill.science-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-097",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Accounting",
+          "Computer Use",
+          "Electrical Repair",
+          "Electronics",
+          "Fast Talk",
+          "Internet Use",
+          "Library Use",
+          "Language (Any)",
+          "Programming",
+          "Science (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-programmer",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Air Traffic Controller",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Air Traffic Controller</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Navigate, Listen, Spot Hidden, Psychology, Science (Meteorology), Computer Use, Electronics, Language (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.navigate",
+        "i.skill.listen",
+        "i.skill.spot-hidden",
+        "i.skill.psychology",
+        "i.skill.science-meteorology",
+        "i.skill.computer-use",
+        "i.skill.electronics",
+        "i.skill.language-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-132",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Navigate",
+          "Listen",
+          "Spot Hidden",
+          "Psychology",
+          "Science (Meteorology)",
+          "Computer Use",
+          "Electronics",
+          "Language (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-air-traffic-controller",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "App Developer",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>App Developer</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Computer Use, Science (Computer Science), Electronics, Library Use, Accounting, Psychology, Art/Craft (Design), Language (Any), Science (Any), Art/Craft (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Science (Computer Science)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Computer Science)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "1",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Computer Science",
+            "specialization": "Science",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        },
+        {
+          "name": "Art/Craft (Design)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Design)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "5",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Design",
+            "specialization": "Art/Craft",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.science-computer-science",
+        "i.skill.electronics",
+        "i.skill.library-use",
+        "i.skill.accounting",
+        "i.skill.psychology",
+        "i.skill.art-craft-design",
+        "i.skill.language-any",
+        "i.skill.science-any",
+        "i.skill.art-craft-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-133",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Science (Computer Science)",
+          "Electronics",
+          "Library Use",
+          "Accounting",
+          "Psychology",
+          "Art/Craft (Design)",
+          "Language (Any)",
+          "Science (Any)",
+          "Art/Craft (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-app-developer",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Astronaut",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Astronaut</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Science (Astronomy), Science (Physics), Navigate, Pilot (Any), Mechanical Repair, Electronics, Survival (Any), Computer Use.</p><p><strong>Legacy conversions:</strong> Pilot → Pilot (Any); Survival → Survival (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.science-astronomy",
+        "i.skill.science-physics",
+        "i.skill.navigate",
+        "i.skill.pilot-any",
+        "i.skill.mechanical-repair",
+        "i.skill.electronics",
+        "i.skill.survival-any",
+        "i.skill.computer-use"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-135",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Science (Astronomy)",
+          "Science (Physics)",
+          "Navigate",
+          "Pilot (Any)",
+          "Mechanical Repair",
+          "Electronics",
+          "Survival (Any)",
+          "Computer Use"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-astronaut",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Audio Engineer",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Audio Engineer</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Art/Craft (Audio), Electronics, Listen, Computer Use, Mechanical Repair, Psychology, Spot Hidden, Accounting, Art/Craft (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Art/Craft (Audio)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Audio)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "5",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Audio",
+            "specialization": "Art/Craft",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.art-craft-audio",
+        "i.skill.electronics",
+        "i.skill.listen",
+        "i.skill.computer-use",
+        "i.skill.mechanical-repair",
+        "i.skill.psychology",
+        "i.skill.spot-hidden",
+        "i.skill.accounting",
+        "i.skill.art-craft-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-136",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Art/Craft (Audio)",
+          "Electronics",
+          "Listen",
+          "Computer Use",
+          "Mechanical Repair",
+          "Psychology",
+          "Spot Hidden",
+          "Accounting",
+          "Art/Craft (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-audio-engineer",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Barista",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Barista</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Art/Craft (Coffee), Charm, Listen, Psychology, Accounting, Fast Talk, Spot Hidden, Language (Own), Art/Craft (Any).</p><p><strong>Legacy conversions:</strong> Own Language → Language (Own).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + APP × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Art/Craft (Coffee)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Coffee)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "5",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Coffee",
+            "specialization": "Art/Craft",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.art-craft-coffee",
+        "i.skill.charm",
+        "i.skill.listen",
+        "i.skill.psychology",
+        "i.skill.accounting",
+        "i.skill.fast-talk",
+        "i.skill.spot-hidden",
+        "i.skill.language-own",
+        "i.skill.art-craft-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-137",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Art/Craft (Coffee)",
+          "Charm",
+          "Listen",
+          "Psychology",
+          "Accounting",
+          "Fast Talk",
+          "Spot Hidden",
+          "Language (Own)",
+          "Art/Craft (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Interpersonal aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-barista",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Bioinformatics Researcher",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/computer.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Bioinformatics Researcher</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Science (Biology), Computer Use, Science (Genetics), Library Use, Medicine, Science (Mathematics), Language (Any), Science (Chemistry), Science (Any).</p><p><strong>Legacy conversions:</strong> Biology → Science (Biology); Mathematics → Science (Mathematics); Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Science (Genetics)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Genetics)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "1",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Genetics",
+            "specialization": "Science",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.science-biology",
+        "i.skill.computer-use",
+        "i.skill.science-genetics",
+        "i.skill.library-use",
+        "i.skill.medicine",
+        "i.skill.science-mathematics",
+        "i.skill.language-any",
+        "i.skill.science-chemistry",
+        "i.skill.science-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-138",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Science (Biology)",
+          "Computer Use",
+          "Science (Genetics)",
+          "Library Use",
+          "Medicine",
+          "Science (Mathematics)",
+          "Language (Any)",
+          "Science (Chemistry)",
+          "Science (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-bioinformatics-researcher",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Call Center Agent",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/investigation.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Call Center Agent</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Charm, Fast Talk, Persuade, Psychology, Listen, Computer Use, Accounting, Language (Own).</p><p><strong>Legacy conversions:</strong> Own Language → Language (Own).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + APP × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.charm",
+        "i.skill.fast-talk",
+        "i.skill.persuade",
+        "i.skill.psychology",
+        "i.skill.listen",
+        "i.skill.computer-use",
+        "i.skill.accounting",
+        "i.skill.language-own"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-140",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Charm",
+          "Fast Talk",
+          "Persuade",
+          "Psychology",
+          "Listen",
+          "Computer Use",
+          "Accounting",
+          "Language (Own)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Interpersonal aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-call-center-agent",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Cybersecurity Analyst",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/computer.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Cybersecurity Analyst</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Computer Use, Electronics, Library Use, Law, Psychology, Science (Computer Science), Spot Hidden, Accounting, Science (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Science (Computer Science)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Computer Science)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "1",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Computer Science",
+            "specialization": "Science",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.electronics",
+        "i.skill.library-use",
+        "i.skill.law",
+        "i.skill.psychology",
+        "i.skill.science-computer-science",
+        "i.skill.spot-hidden",
+        "i.skill.accounting",
+        "i.skill.science-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-141",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Electronics",
+          "Library Use",
+          "Law",
+          "Psychology",
+          "Science (Computer Science)",
+          "Spot Hidden",
+          "Accounting",
+          "Science (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-cybersecurity-analyst",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Data Analyst",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Data Analyst</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Computer Use, Accounting, Science (Mathematics), Library Use, Psychology, Science (Statistics), Language (Any), Spot Hidden, Science (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Science (Statistics)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Statistics)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "1",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Statistics",
+            "specialization": "Science",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.accounting",
+        "i.skill.science-mathematics",
+        "i.skill.library-use",
+        "i.skill.psychology",
+        "i.skill.science-statistics",
+        "i.skill.language-any",
+        "i.skill.spot-hidden",
+        "i.skill.science-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-142",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Accounting",
+          "Science (Mathematics)",
+          "Library Use",
+          "Psychology",
+          "Science (Statistics)",
+          "Language (Any)",
+          "Spot Hidden",
+          "Science (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-data-analyst",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Drone Operator",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/computer.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Drone Operator</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Pilot (Drone), Electronics, Computer Use, Navigate, Spot Hidden, Mechanical Repair, Science (Physics), Listen.</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + DEX × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Pilot (Drone)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Pilot (Drone)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "1",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Drone",
+            "specialization": "Pilot",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.pilot-drone",
+        "i.skill.electronics",
+        "i.skill.computer-use",
+        "i.skill.navigate",
+        "i.skill.spot-hidden",
+        "i.skill.mechanical-repair",
+        "i.skill.science-physics",
+        "i.skill.listen"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-143",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Pilot (Drone)",
+          "Electronics",
+          "Computer Use",
+          "Navigate",
+          "Spot Hidden",
+          "Mechanical Repair",
+          "Science (Physics)",
+          "Listen"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Physical coordination"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-drone-operator",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Emergency Dispatcher",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Emergency Dispatcher</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Listen, Psychology, Persuade, Computer Use, Law, Navigate, Spot Hidden, First Aid.</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + APP × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.listen",
+        "i.skill.psychology",
+        "i.skill.persuade",
+        "i.skill.computer-use",
+        "i.skill.law",
+        "i.skill.navigate",
+        "i.skill.spot-hidden",
+        "i.skill.first-aid"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-144",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Listen",
+          "Psychology",
+          "Persuade",
+          "Computer Use",
+          "Law",
+          "Navigate",
+          "Spot Hidden",
+          "First Aid"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Interpersonal aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-emergency-dispatcher",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Environmental Scientist",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/science.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Environmental Scientist</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Science (Biology), Science (Chemistry), Natural World, Navigate, Survival (Any), Library Use, Spot Hidden, Computer Use.</p><p><strong>Legacy conversions:</strong> Survival → Survival (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.science-biology",
+        "i.skill.science-chemistry",
+        "i.skill.natural-world",
+        "i.skill.navigate",
+        "i.skill.survival-any",
+        "i.skill.library-use",
+        "i.skill.spot-hidden",
+        "i.skill.computer-use"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-145",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Science (Biology)",
+          "Science (Chemistry)",
+          "Natural World",
+          "Navigate",
+          "Survival (Any)",
+          "Library Use",
+          "Spot Hidden",
+          "Computer Use"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-environmental-scientist",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Freight Logistics Coordinator",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Freight Logistics Coordinator</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Accounting, Navigate, Computer Use, Law, Persuade, Psychology, Drive Auto, Language (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.accounting",
+        "i.skill.navigate",
+        "i.skill.computer-use",
+        "i.skill.law",
+        "i.skill.persuade",
+        "i.skill.psychology",
+        "i.skill.drive-auto",
+        "i.skill.language-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-147",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Accounting",
+          "Navigate",
+          "Computer Use",
+          "Law",
+          "Persuade",
+          "Psychology",
+          "Drive Auto",
+          "Language (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-freight-logistics-coordinator",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Game Developer",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Game Developer</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Computer Use, Art/Craft (Game Design), Electronics, Science (Mathematics), Psychology, Library Use, Accounting, Language (Any), Art/Craft (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Art/Craft (Game Design)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Game Design)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "5",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Game Design",
+            "specialization": "Art/Craft",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.art-craft-game-design",
+        "i.skill.electronics",
+        "i.skill.science-mathematics",
+        "i.skill.psychology",
+        "i.skill.library-use",
+        "i.skill.accounting",
+        "i.skill.language-any",
+        "i.skill.art-craft-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-148",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Art/Craft (Game Design)",
+          "Electronics",
+          "Science (Mathematics)",
+          "Psychology",
+          "Library Use",
+          "Accounting",
+          "Language (Any)",
+          "Art/Craft (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-game-developer",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Genetic Counselor",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Genetic Counselor</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Science (Genetics), Medicine, Psychology, Persuade, Library Use, Science (Biology), Listen, Language (Any), Science (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Science (Genetics)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Genetics)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "1",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Genetics",
+            "specialization": "Science",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.science-genetics",
+        "i.skill.medicine",
+        "i.skill.psychology",
+        "i.skill.persuade",
+        "i.skill.library-use",
+        "i.skill.science-biology",
+        "i.skill.listen",
+        "i.skill.language-any",
+        "i.skill.science-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-149",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Science (Genetics)",
+          "Medicine",
+          "Psychology",
+          "Persuade",
+          "Library Use",
+          "Science (Biology)",
+          "Listen",
+          "Language (Any)",
+          "Science (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-genetic-counselor",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "GIS Cartographer",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>GIS Cartographer</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Navigate, Computer Use, Science (Geography), Spot Hidden, Library Use, Art/Craft (Cartography), Natural World, Language (Any), Science (Any), Art/Craft (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Science (Geography)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Geography)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "1",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Geography",
+            "specialization": "Science",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        },
+        {
+          "name": "Art/Craft (Cartography)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Cartography)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "5",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Cartography",
+            "specialization": "Art/Craft",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.navigate",
+        "i.skill.computer-use",
+        "i.skill.science-geography",
+        "i.skill.spot-hidden",
+        "i.skill.library-use",
+        "i.skill.art-craft-cartography",
+        "i.skill.natural-world",
+        "i.skill.language-any",
+        "i.skill.science-any",
+        "i.skill.art-craft-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-150",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Navigate",
+          "Computer Use",
+          "Science (Geography)",
+          "Spot Hidden",
+          "Library Use",
+          "Art/Craft (Cartography)",
+          "Natural World",
+          "Language (Any)",
+          "Science (Any)",
+          "Art/Craft (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-gis-cartographer",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Industrial Hygienist",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Industrial Hygienist</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Science (Chemistry), Science (Biology), Medicine, Law, Spot Hidden, Library Use, Psychology, Computer Use.</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.science-chemistry",
+        "i.skill.science-biology",
+        "i.skill.medicine",
+        "i.skill.law",
+        "i.skill.spot-hidden",
+        "i.skill.library-use",
+        "i.skill.psychology",
+        "i.skill.computer-use"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-151",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Science (Chemistry)",
+          "Science (Biology)",
+          "Medicine",
+          "Law",
+          "Spot Hidden",
+          "Library Use",
+          "Psychology",
+          "Computer Use"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-industrial-hygienist",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Internet Journalist",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/investigation.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Internet Journalist</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Computer Use, Library Use, Psychology, Persuade, Spot Hidden, Art/Craft (Photography), Fast Talk, Language (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.library-use",
+        "i.skill.psychology",
+        "i.skill.persuade",
+        "i.skill.spot-hidden",
+        "i.skill.art-craft-photography",
+        "i.skill.fast-talk",
+        "i.skill.language-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-152",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Library Use",
+          "Psychology",
+          "Persuade",
+          "Spot Hidden",
+          "Art/Craft (Photography)",
+          "Fast Talk",
+          "Language (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-internet-journalist",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "IT Support Technician",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>IT Support Technician</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Computer Use, Electronics, Mechanical Repair, Psychology, Listen, Library Use, Accounting, Persuade.</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.electronics",
+        "i.skill.mechanical-repair",
+        "i.skill.psychology",
+        "i.skill.listen",
+        "i.skill.library-use",
+        "i.skill.accounting",
+        "i.skill.persuade"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-153",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Electronics",
+          "Mechanical Repair",
+          "Psychology",
+          "Listen",
+          "Library Use",
+          "Accounting",
+          "Persuade"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-it-support-technician",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Paramedic",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/medicine.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Paramedic</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> First Aid, Medicine, Drive Auto, Psychology, Listen, Spot Hidden, Science (Biology), Persuade.</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + DEX × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.first-aid",
+        "i.skill.medicine",
+        "i.skill.drive-auto",
+        "i.skill.psychology",
+        "i.skill.listen",
+        "i.skill.spot-hidden",
+        "i.skill.science-biology",
+        "i.skill.persuade"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-156",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "First Aid",
+          "Medicine",
+          "Drive Auto",
+          "Psychology",
+          "Listen",
+          "Spot Hidden",
+          "Science (Biology)",
+          "Persuade"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Physical coordination"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-paramedic",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Podcast Producer",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Podcast Producer</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Art/Craft (Audio), Computer Use, Psychology, Listen, Persuade, Library Use, Fast Talk, Accounting, Art/Craft (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + APP × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Art/Craft (Audio)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Audio)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "5",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Audio",
+            "specialization": "Art/Craft",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.art-craft-audio",
+        "i.skill.computer-use",
+        "i.skill.psychology",
+        "i.skill.listen",
+        "i.skill.persuade",
+        "i.skill.library-use",
+        "i.skill.fast-talk",
+        "i.skill.accounting",
+        "i.skill.art-craft-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-157",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Art/Craft (Audio)",
+          "Computer Use",
+          "Psychology",
+          "Listen",
+          "Persuade",
+          "Library Use",
+          "Fast Talk",
+          "Accounting",
+          "Art/Craft (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Interpersonal aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-podcast-producer",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Search and Rescue Specialist",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Search and Rescue Specialist</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> First Aid, Navigate, Survival (Any), Climb, Swim, Track, Listen, Spot Hidden.</p><p><strong>Legacy conversions:</strong> Survival → Survival (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + DEX × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.first-aid",
+        "i.skill.navigate",
+        "i.skill.survival-any",
+        "i.skill.climb",
+        "i.skill.swim",
+        "i.skill.track",
+        "i.skill.listen",
+        "i.skill.spot-hidden"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-161",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "First Aid",
+          "Navigate",
+          "Survival (Any)",
+          "Climb",
+          "Swim",
+          "Track",
+          "Listen",
+          "Spot Hidden"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Physical coordination"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-search-and-rescue-specialist",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Social Media Manager",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/commerce.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Social Media Manager</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Computer Use, Charm, Fast Talk, Persuade, Psychology, Art/Craft (Photography), Accounting, Listen.</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + APP × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.charm",
+        "i.skill.fast-talk",
+        "i.skill.persuade",
+        "i.skill.psychology",
+        "i.skill.art-craft-photography",
+        "i.skill.accounting",
+        "i.skill.listen"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-162",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Charm",
+          "Fast Talk",
+          "Persuade",
+          "Psychology",
+          "Art/Craft (Photography)",
+          "Accounting",
+          "Listen"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Interpersonal aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-social-media-manager",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Software Engineer",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/computer.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Software Engineer</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Computer Use, Science (Mathematics), Electronics, Library Use, Accounting, Language (Any), Spot Hidden, Psychology.</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.science-mathematics",
+        "i.skill.electronics",
+        "i.skill.library-use",
+        "i.skill.accounting",
+        "i.skill.language-any",
+        "i.skill.spot-hidden",
+        "i.skill.psychology"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-163",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Science (Mathematics)",
+          "Electronics",
+          "Library Use",
+          "Accounting",
+          "Language (Any)",
+          "Spot Hidden",
+          "Psychology"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-software-engineer",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Video Editor",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/communications.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Video Editor</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Art/Craft (Film), Computer Use, Listen, Spot Hidden, Psychology, Electronics, Accounting, Library Use, Art/Craft (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Art/Craft (Film)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Art/Craft (Film)</strong> is not in the supplied CoC7 system skill registry. Base chance: 5% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "5",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Film",
+            "specialization": "Art/Craft",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.art-craft-film",
+        "i.skill.computer-use",
+        "i.skill.listen",
+        "i.skill.spot-hidden",
+        "i.skill.psychology",
+        "i.skill.electronics",
+        "i.skill.accounting",
+        "i.skill.library-use",
+        "i.skill.art-craft-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-166",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Art/Craft (Film)",
+          "Computer Use",
+          "Listen",
+          "Spot Hidden",
+          "Psychology",
+          "Electronics",
+          "Accounting",
+          "Library Use",
+          "Art/Craft (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-video-editor",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Wildlife Rehabilitator",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Wildlife Rehabilitator</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Natural World, Science (Biology), First Aid, Medicine, Track, Listen, Spot Hidden, Survival (Any).</p><p><strong>Legacy conversions:</strong> Survival → Survival (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + DEX × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.natural-world",
+        "i.skill.science-biology",
+        "i.skill.first-aid",
+        "i.skill.medicine",
+        "i.skill.track",
+        "i.skill.listen",
+        "i.skill.spot-hidden",
+        "i.skill.survival-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-167",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Natural World",
+          "Science (Biology)",
+          "First Aid",
+          "Medicine",
+          "Track",
+          "Listen",
+          "Spot Hidden",
+          "Survival (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Physical coordination"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-wildlife-rehabilitator",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Wind Farm Technician",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Wind Farm Technician</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Mechanical Repair, Electrical Repair, Climb, Science (Physics), Navigate, Spot Hidden, Computer Use, First Aid.</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.mechanical-repair",
+        "i.skill.electrical-repair",
+        "i.skill.climb",
+        "i.skill.science-physics",
+        "i.skill.navigate",
+        "i.skill.spot-hidden",
+        "i.skill.computer-use",
+        "i.skill.first-aid"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-168",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Mechanical Repair",
+          "Electrical Repair",
+          "Climb",
+          "Science (Physics)",
+          "Navigate",
+          "Spot Hidden",
+          "Computer Use",
+          "First Aid"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-wind-farm-technician",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Digital Forensic Examiner",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/investigation.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Digital Forensic Examiner</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> Computer Use, Law, Electronics, Spot Hidden, Library Use, Psychology, Science (Computer Science), Accounting, Science (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + INT × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [
+        {
+          "name": "Science (Computer Science)",
+          "type": "skill",
+          "img": "modules/coc7-universal-occupations/icons/engineering.svg",
+          "system": {
+            "description": {
+              "value": "<p>Additional homebrew skill for the Universal Occupations module. <strong>Science (Computer Science)</strong> is not in the supplied CoC7 system skill registry. Base chance: 1% (Keeper-adjustable).</p>",
+              "keeper": ""
+            },
+            "base": "1",
+            "properties": {
+              "push": true,
+              "noxpgain": false,
+              "special": true,
+              "rarity": false,
+              "fighting": false,
+              "firearm": false,
+              "ranged": false,
+              "requiresname": false,
+              "picknameonly": false,
+              "own": false,
+              "keepbasevalue": false
+            },
+            "skillName": "Computer Science",
+            "specialization": "Science",
+            "adjustments": {
+              "base": 0,
+              "personal": 0,
+              "occupation": 0,
+              "archetype": 0,
+              "experiencePackage": 0,
+              "experience": 0
+            },
+            "flags": {
+              "archetype": false,
+              "developement": false,
+              "experiencePackage": false,
+              "occupation": false
+            }
+          }
+        }
+      ],
+      "itemKeys": [
+        "i.skill.computer-use",
+        "i.skill.law",
+        "i.skill.electronics",
+        "i.skill.spot-hidden",
+        "i.skill.library-use",
+        "i.skill.psychology",
+        "i.skill.science-computer-science",
+        "i.skill.accounting",
+        "i.skill.science-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-169",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "Computer Use",
+          "Law",
+          "Electronics",
+          "Spot Hidden",
+          "Library Use",
+          "Psychology",
+          "Science (Computer Science)",
+          "Accounting",
+          "Science (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Analytical aptitude"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-digital-forensic-examiner",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Disaster Relief Coordinator",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Disaster Relief Coordinator</strong> — Modern occupation profile adapted from the supplied community reference.</p><p><strong>Income:</strong> Varies by employer and era</p><p><strong>Contacts:</strong> Professional colleagues and local institutions</p><p><strong>Occupation skills:</strong> First Aid, Persuade, Psychology, Navigate, Accounting, Law, Listen, Language (Any).</p><p><strong>Legacy conversions:</strong> Other Language → Language (Any).</p><p><em>Community-reference adaptation; review credit rating and skill selections for your campaign.</em></p><p><em>v0.4 homebrew occupation points: EDU × 2 + DEX × 2. This is an adaptation, not a verified official formula. Original special abilities, if any, remain descriptive only.</em></p>",
+        "keeper": ""
+      },
+      "source": "Community occupation reference (7e adaptation)",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 50
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.first-aid",
+        "i.skill.persuade",
+        "i.skill.psychology",
+        "i.skill.navigate",
+        "i.skill.accounting",
+        "i.skill.law",
+        "i.skill.listen",
+        "i.skill.language-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "occ-170",
+        "era": "Modern",
+        "v03": true,
+        "unresolvedSkills": [],
+        "mappedSkills": [
+          "First Aid",
+          "Persuade",
+          "Psychology",
+          "Navigate",
+          "Accounting",
+          "Law",
+          "Listen",
+          "Language (Any)"
+        ],
+        "v04": true,
+        "formulaStatus": "homebrew-adaptation",
+        "formulaRationale": "Physical coordination"
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-disaster-relief-coordinator",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Social Worker",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Social Worker</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Psychology, Persuade, Charm, Law, Listen, First Aid, Credit Rating.</p><p><strong>Notes:</strong> Community support.</p><p><em>Adapted occupation points: EDU × 2 + APP × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 10,
+        "max": 60
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.psychology",
+        "i.skill.persuade",
+        "i.skill.charm",
+        "i.skill.law",
+        "i.skill.listen",
+        "i.skill.first-aid"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-social-worker",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Psychology",
+          "Persuade",
+          "Charm",
+          "Law",
+          "Listen",
+          "First Aid",
+          "Credit Rating"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-social-worker",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Public Relations Specialist",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Public Relations Specialist</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Charm, Persuade, Fast Talk, Psychology, Credit Rating, Listen, Computer Use.</p><p><strong>Notes:</strong> Public communication.</p><p><em>Adapted occupation points: EDU × 2 + APP × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 20,
+        "max": 80
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.charm",
+        "i.skill.persuade",
+        "i.skill.fast-talk",
+        "i.skill.psychology",
+        "i.skill.listen",
+        "i.skill.computer-use"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-public-relations-specialist",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Charm",
+          "Persuade",
+          "Fast Talk",
+          "Psychology",
+          "Credit Rating",
+          "Listen",
+          "Computer Use"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-public-relations-specialist",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Investigative Podcaster",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Investigative Podcaster</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Listen, Psychology, Library Use, Computer Use, Internet Use, Persuade, Spot Hidden.</p><p><strong>Notes:</strong> Independent investigative media.</p><p><em>Adapted occupation points: EDU × 2 + INT × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 5,
+        "max": 65
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.listen",
+        "i.skill.psychology",
+        "i.skill.library-use",
+        "i.skill.computer-use",
+        "i.skill.internet-use",
+        "i.skill.persuade",
+        "i.skill.spot-hidden"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-investigative-podcaster",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Listen",
+          "Psychology",
+          "Library Use",
+          "Computer Use",
+          "Internet Use",
+          "Persuade",
+          "Spot Hidden"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-investigative-podcaster",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Emergency Room Doctor",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Emergency Room Doctor</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Medicine, First Aid, Science (Biology), Psychology, Listen, Credit Rating.</p><p><strong>Notes:</strong> Emergency medicine.</p><p><em>Adapted occupation points: EDU × 2 + INT × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 30,
+        "max": 85
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.medicine",
+        "i.skill.first-aid",
+        "i.skill.science-biology",
+        "i.skill.psychology",
+        "i.skill.listen"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-emergency-room-doctor",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Medicine",
+          "First Aid",
+          "Science (Biology)",
+          "Psychology",
+          "Listen",
+          "Credit Rating"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-emergency-room-doctor",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Intelligence Analyst",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Intelligence Analyst</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Psychology, Library Use, Computer Use, Law, History, Spot Hidden, Other Language.</p><p><strong>Notes:</strong> Intelligence assessment.</p><p><em>Adapted occupation points: EDU × 2 + INT × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 20,
+        "max": 80
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.psychology",
+        "i.skill.library-use",
+        "i.skill.computer-use",
+        "i.skill.law",
+        "i.skill.history",
+        "i.skill.spot-hidden",
+        "i.skill.language-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-intelligence-analyst",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Psychology",
+          "Library Use",
+          "Computer Use",
+          "Law",
+          "History",
+          "Spot Hidden",
+          "Other Language"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-intelligence-analyst",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Forensic Accountant",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Forensic Accountant</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Accounting, Law, Computer Use, Library Use, Psychology, Spot Hidden, Credit Rating.</p><p><strong>Notes:</strong> Financial investigations.</p><p><em>Adapted occupation points: EDU × 2 + INT × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 20,
+        "max": 80
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.accounting",
+        "i.skill.law",
+        "i.skill.computer-use",
+        "i.skill.library-use",
+        "i.skill.psychology",
+        "i.skill.spot-hidden"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-forensic-accountant",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Accounting",
+          "Law",
+          "Computer Use",
+          "Library Use",
+          "Psychology",
+          "Spot Hidden",
+          "Credit Rating"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-forensic-accountant",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "UX Designer",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>UX Designer</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Art/Craft (Design), Psychology, Computer Use, Persuade, Listen, Credit Rating.</p><p><strong>Notes:</strong> Digital product design.</p><p><em>Adapted occupation points: EDU × 2 + INT × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 15,
+        "max": 75
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.art-craft-design",
+        "i.skill.psychology",
+        "i.skill.computer-use",
+        "i.skill.persuade",
+        "i.skill.listen"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-ux-designer",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Art/Craft (Design)",
+          "Psychology",
+          "Computer Use",
+          "Persuade",
+          "Listen",
+          "Credit Rating"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-ux-designer",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Flight Attendant",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Flight Attendant</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Charm, Persuade, Psychology, First Aid, Listen, Spot Hidden, Other Language.</p><p><strong>Notes:</strong> Airline cabin crew.</p><p><em>Adapted occupation points: EDU × 2 + APP × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 10,
+        "max": 55
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.charm",
+        "i.skill.persuade",
+        "i.skill.psychology",
+        "i.skill.first-aid",
+        "i.skill.listen",
+        "i.skill.spot-hidden",
+        "i.skill.language-any"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-flight-attendant",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Charm",
+          "Persuade",
+          "Psychology",
+          "First Aid",
+          "Listen",
+          "Spot Hidden",
+          "Other Language"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-flight-attendant",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Robotics Engineer",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Robotics Engineer</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Electronics, Mechanical Repair, Computer Use, Programming, Science (Physics), Science (Mathematics), Credit Rating.</p><p><strong>Notes:</strong> Robotics systems.</p><p><em>Adapted occupation points: EDU × 2 + INT × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "int": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 25,
+        "max": 80
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.electronics",
+        "i.skill.mechanical-repair",
+        "i.skill.computer-use",
+        "i.skill.programming",
+        "i.skill.science-physics",
+        "i.skill.science-mathematics"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-robotics-engineer",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Electronics",
+          "Mechanical Repair",
+          "Computer Use",
+          "Programming",
+          "Science (Physics)",
+          "Science (Mathematics)",
+          "Credit Rating"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-robotics-engineer",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  },
+  {
+    "name": "Emergency Management Director",
+    "type": "occupation",
+    "img": "modules/coc7-universal-occupations/icons/general.svg",
+    "system": {
+      "description": {
+        "value": "<p><strong>Emergency Management Director</strong> — CoC7 7e homebrew occupation expansion.</p><p><strong>Occupation skills:</strong> Persuade, Psychology, Navigate, First Aid, Law, Listen, Credit Rating.</p><p><strong>Notes:</strong> Disaster response leadership.</p><p><em>Adapted occupation points: EDU × 2 + APP × 2; optional choices require player/GM selection. Not official CoC7 occupation data.</em></p>",
+        "keeper": ""
+      },
+      "source": "Universal Occupations v0.5 homebrew expansion",
+      "type": {
+        "classic": false,
+        "modern": true,
+        "lovecraftian": false,
+        "pulp": false
+      },
+      "occupationSkillPoints": {
+        "str": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "con": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "siz": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "dex": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "app": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        },
+        "int": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "pow": {
+          "multiplier": null,
+          "selected": false,
+          "optional": false
+        },
+        "edu": {
+          "multiplier": 2,
+          "selected": true,
+          "optional": false
+        }
+      },
+      "creditRating": {
+        "min": 25,
+        "max": 80
+      },
+      "itemDocuments": [],
+      "itemKeys": [
+        "i.skill.persuade",
+        "i.skill.psychology",
+        "i.skill.navigate",
+        "i.skill.first-aid",
+        "i.skill.law",
+        "i.skill.listen"
+      ],
+      "groups": [],
+      "personal": 0,
+      "personalText": ""
+    },
+    "flags": {
+      "coc7-universal-occupations": {
+        "sourceId": "v05-emergency-management-director",
+        "era": "modern",
+        "formulaStatus": "homebrew-adaptation",
+        "v05": true,
+        "mappedSkills": [
+          "Persuade",
+          "Psychology",
+          "Navigate",
+          "First Aid",
+          "Law",
+          "Listen",
+          "Credit Rating"
+        ],
+        "unresolvedSkills": []
+      },
+      "CoC7": {
+        "cocidFlag": {
+          "id": "i.occupation.universal-emergency-management-director",
+          "lang": "en",
+          "priority": 0
+        }
+      }
+    }
+  }
+]

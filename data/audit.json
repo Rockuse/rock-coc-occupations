@@ -1,0 +1,41 @@
+{
+  "counts": {
+    "occupations": 171,
+    "custom_embeds": 28,
+    "unresolved": 1
+  },
+  "packs": {
+    "classic": 140,
+    "modern": 31
+  },
+  "additionalSkills": [
+    "Internet Use",
+    "Programming",
+    "Cartography",
+    "Drive Tank",
+    "Radio Operator",
+    "Pilot (Drone)",
+    "Science (Computer Science)",
+    "Science (Genetics)",
+    "Science (Statistics)",
+    "Science (Geography)",
+    "Art/Craft (Audio)",
+    "Art/Craft (Preservation)",
+    "Art/Craft (Conservation)",
+    "Art/Craft (Broadcasting)",
+    "Art/Craft (Drafting)",
+    "Art/Craft (Design)",
+    "Art/Craft (Coffee)",
+    "Art/Craft (Game Design)",
+    "Art/Craft (Cartography)",
+    "Art/Craft (Film)"
+  ],
+  "keeperReview": [
+    {
+      "occupation": "Sailor",
+      "unresolved": [
+        "etc."
+      ]
+    }
+  ]
+}

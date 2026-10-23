@@ -1,0 +1,24 @@
+{
+  "id": "coc7-universal-occupations",
+  "title": "CoC7 Universal Occupations + Additional Skills",
+  "description": "206 CoC7 occupations; removes conflicting Credit Rating skill references to allow native occupation assignment and occupation-skill marking.",
+  "version": "0.7.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "CoC7",
+        "type": "system",
+        "compatibility": {
+          "minimum": "8.16"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/install.mjs"
+  ]
+}

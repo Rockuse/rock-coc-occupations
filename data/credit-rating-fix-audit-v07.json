@@ -1,0 +1,391 @@
+{
+  "description": "Removed i.skill.credit-rating from occupation itemKeys and group itemKeys. Credit Rating ranges preserved.",
+  "affected": 77,
+  "changes": [
+    {
+      "era": "classic",
+      "occupation": "Accountant",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Ambassador",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Antique Dealer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Architect",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Barber",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Book Dealer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Bookie",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "\u201cBoss\u201d",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Catholic Priest",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Clergyman",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Clerk",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Company Officer/Executive",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Columnist",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Deacon/Elder",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Dentist",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Dilettante",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Editor",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Elected official",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Farmer/Farm Hand",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Fence",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Field Researcher",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Fireman",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Forensic Surgeon",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Gangster",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Golf Pro",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Judge",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Lawyer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Loan Shark",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Military Officer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Museum Curator",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Nurse",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Pharmacist",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Physician",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Plastic Surgeon",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Practising Attorney",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Professor/Teacher",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Prosecuting Attorney",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Protestant Minister",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Rabbi",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Ranch Hand/Cowboy",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Researcher",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Salesman",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Secretary",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Shifty Accountant/Lawyer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Small Business Owner",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Stock Broker",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Tennis Pro",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Undertaker",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "President",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Singer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Prime Minister",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Mayor",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Governor",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Diplomat",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Political Campaigner",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Opera Singer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Composer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Orchestra Conductor",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Dancer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Choreographer",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Chef",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Baker",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Tailor",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Jeweler",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Watchmaker",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Train Conductor",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Ship Captain",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Veterinarian",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Magician (Stage)",
+      "removedReferences": 1
+    },
+    {
+      "era": "classic",
+      "occupation": "Private Secretary",
+      "removedReferences": 1
+    },
+    {
+      "era": "modern",
+      "occupation": "Social Worker",
+      "removedReferences": 1
+    },
+    {
+      "era": "modern",
+      "occupation": "Public Relations Specialist",
+      "removedReferences": 1
+    },
+    {
+      "era": "modern",
+      "occupation": "Emergency Room Doctor",
+      "removedReferences": 1
+    },
+    {
+      "era": "modern",
+      "occupation": "Forensic Accountant",
+      "removedReferences": 1
+    },
+    {
+      "era": "modern",
+      "occupation": "UX Designer",
+      "removedReferences": 1
+    },
+    {
+      "era": "modern",
+      "occupation": "Robotics Engineer",
+      "removedReferences": 1
+    },
+    {
+      "era": "modern",
+      "occupation": "Emergency Management Director",
+      "removedReferences": 1
+    }
+  ]
+}

@@ -1,0 +1,1028 @@
+[
+  {
+    "name": "Accountant",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Acrobat",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Agency Detective",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Ambassador",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Antique Dealer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Architect",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Artist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Author",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Bank Robber",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Barber",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Bartender",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Bible Salesman",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Big Game Hunter",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Book Dealer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Bookie",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "\u201cBoss\u201d",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Bounty Hunter",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Boxer/Wrestler",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Burglar",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Bus Driver",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Catholic Priest",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Clergyman",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Clerk",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Cocktail Waitress",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Communist/Radical",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Company Officer/Executive",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Columnist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Con Man",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Deacon/Elder",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Deep-sea Diver",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Dentist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Designer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Dilettante",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "DJ",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Drifter",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Editor",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Elected official",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Entertainer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Explorer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Farmer/Farm Hand",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Federal Agent",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Fence",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Field Researcher",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Film Crew",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Film Star",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Fireman",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Foreign Correspondent",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Forger/Counterfeiter",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Forester",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Forensic Investigator",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Forensic Surgeon",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Gambler",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Gangster",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Gardener",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Golf Pro",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Gravedigger",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Hired Goon",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Hit Man",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Hobo",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Hooker",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Journalist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Judge",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Lawyer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Librarian",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Loan Shark",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Lumberjack",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Manager/Coach",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "(Medical) Technician",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Mental Hospital Attendant",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Mercenary",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Military Officer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Miner",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Missionary",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Mountain Climber",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Museum Curator",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Musician",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "News Chopper Pilot",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Nurse",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Occultist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Painter/Sculptor",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Parapsychologist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Pharmacist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Photographer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Photojournalist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Physician",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Pick Pocket",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Pilot",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Plastic Surgeon",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Police Detective",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Policeman",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Practising Attorney",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Preacher",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Private Investigator",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Professional Sports Athlete",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Professor/Teacher",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Prosecuting Attorney",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Protestant Minister",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Psychologist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Punk",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Rabbi",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Racecar Driver",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Ranch Hand/Cowboy",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Reporter",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Researcher",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Sailor",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Salesman",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Secretary",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Shifty Accountant/Lawyer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Small Business Owner",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Smuggler",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Soldier/Marine",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Spy",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Stage Actor",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Stage Hand",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Stock Broker",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Student/Intern",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Stunt Man",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Surveyor",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Swimmer/Diver",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Talent Agent",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Taxi Driver",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "General aptitude (review recommended)"
+  },
+  {
+    "name": "Telephone Operator",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Tennis Pro",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Tribal Member",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Undertaker",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Uniformed Police Officer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Union Activist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Writer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Zookeeper",
+    "era": "classic",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Archivist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Border Inspector",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Forensic Anthropologist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Maritime Archaeologist",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Museum Conservator",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Public Health Officer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Railway Signal Operator",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Radio Broadcaster",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Telegraph Repairer",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Urban Planner",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Telephone Switchboard Operator",
+    "era": "classic",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Hacker",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Programmer",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Air Traffic Controller",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "App Developer",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Astronaut",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Audio Engineer",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Barista",
+    "era": "modern",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Bioinformatics Researcher",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Call Center Agent",
+    "era": "modern",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Cybersecurity Analyst",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Data Analyst",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Drone Operator",
+    "era": "modern",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Emergency Dispatcher",
+    "era": "modern",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Environmental Scientist",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Freight Logistics Coordinator",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Game Developer",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Genetic Counselor",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "GIS Cartographer",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Industrial Hygienist",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Internet Journalist",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "IT Support Technician",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Paramedic",
+    "era": "modern",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Podcast Producer",
+    "era": "modern",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Search and Rescue Specialist",
+    "era": "modern",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Social Media Manager",
+    "era": "modern",
+    "formula": "EDU\u00d72 + APP\u00d72",
+    "basis": "Interpersonal aptitude"
+  },
+  {
+    "name": "Software Engineer",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Video Editor",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Wildlife Rehabilitator",
+    "era": "modern",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  },
+  {
+    "name": "Wind Farm Technician",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Digital Forensic Examiner",
+    "era": "modern",
+    "formula": "EDU\u00d72 + INT\u00d72",
+    "basis": "Analytical aptitude"
+  },
+  {
+    "name": "Disaster Relief Coordinator",
+    "era": "modern",
+    "formula": "EDU\u00d72 + DEX\u00d72",
+    "basis": "Physical coordination"
+  }
+]
